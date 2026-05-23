@@ -1,0 +1,11 @@
+<FilesMatch "^\.">
+    Require all denied
+</FilesMatch>
+
+<FilesMatch "\.(enc|pem|crt|key)$">
+    Require all denied
+</FilesMatch>
+
+<FilesMatch "(crypto|debug|fix|patch|gen_key|setup_crypto|swap|rebuild_page|verify|setup_crypto)\.php$">
+    Require all denied
+</FilesMatch>

@@ -1,0 +1,5 @@
+# 站点配置（含密钥、面板 Token）
+main-site/inc/config.php
+
+# 系统文件
+.user.ini
